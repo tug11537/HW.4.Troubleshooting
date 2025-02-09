@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troubleshooting 4 | MUST 4707</title>
+    <style>
+        body {
+            background-color: #fffd82;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: #ff1493;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #ff4500;
+            text-shadow: 2px 2px #000;
+        }
+        a {
+            color: #008000;
+            font-weight: bold;
+        }
+        pre {
+            background-color: #222;
+            color: #0ff;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        ul, ol {
+            background-color: #00ffff;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        code {
+            background-color: #222;
+            padding: 2px 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<h1 id="troubleshooting-4-must-4707">Troubleshooting 4 | MUST 4707</h1>
+<p><a href="#accessing-the-assignment-materials">How to Access Assignment Materials</a></p>
+<h2 id="finding-errors-in-existing-code-and-fixing-them">Finding Errors in existing code and fixing them</h2>
+<p>In this assignment you will update the file <code>script.js</code> and commit it to your assignment repository. Your updated version of <code>script.js</code> should run without any errors. </p>
+<h3 id="troubleshooting">Troubleshooting</h3>
+<p>Troubleshooting is the process of identifying, diagnosing, and resolving issues or problems in a system, device, software, or any complex situation. It involves systematically analyzing the symptoms, investigating potential causes, and implementing solutions to restore normal functionality or achieve the desired outcome. Troubleshooting is a critical skill used in various fields, including technology, engineering, and everyday problem-solving, to address and fix problems efficiently.</p>
+<h3 id="task-description">Task Description</h3>
+<ol>
+    <li>The provided <code>script.js</code> contains multiple coding errors</li>
+    <li>Figure out what is wrong with the code and fix it!</li>
+</ol>
+<h3 id="coding-instructions">Coding Instructions</h3>
+<p>You will edit your code  in <code>script.js</code>:</p>
+<pre><code class="lang-javascript">const numbers = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
+
+let <span class="hljs-built_in">index</span> = <span class="hljs-number">0</span>;
+
+const <span class="hljs-built_in">sum</span> = <span class="hljs-number">0</span>;
+
+<span class="hljs-keyword">while</span> (<span class="hljs-built_in">index</span> == numbers.length) {
+    <span class="hljs-built_in">sum</span> += numbers[<span class="hljs-built_in">index</span>];
+    <span class="hljs-built_in">index</span> = <span class="hljs-built_in">index</span> + <span class="hljs-number">1</span>;
+}
+
+
+numbers.append(<span class="hljs-number">6</span>);
+
+console.<span class="hljs-built_in">log</span>(numbers);
+console.<span class="hljs-built_in">log</span>(<span class="hljs-built_in">sum</span>);
+</code></pre>
+<h3 id="-expected-console-output-after-errors-are-fixed-"><strong>Expected Console Output After Errors are fixed</strong></h3>
+<pre><code>[<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>, <span class="hljs-number">6</span>]
+<span class="hljs-number">15</span>
+</code></pre><h2 id="-">---</h2>
+<h3 id="submission-steps">Submission Steps</h3>
+<h2 id="1-upload-your-script-js-to-the-canvas-assignment-">1. Upload your <code>script.js</code> to the Canvas assignment.</h2>
+<h2 id="accessing-the-assignment-materials">Accessing the Assignment Materials</h2>
+<ol>
+    <li>Navigate to the assignment repository in the course <a href="https://github.com/MUST4707">GitHub organization</a></li>
+    <li>Click on the green <code>Use this template</code> button in the top right corner.</li>
+    <li>Choose &#39;Create a new repository&#39;</li>
+    <li>Set up the repo name under your account.</li>
+    <li>Click <code>Create repository</code></li>
+</ol>
+<p><em>You should now be at your own personal repository with the assignment materials.</em></p>
+<ol start="6">
+    <li>Click on the green <code>&lt;&gt; Code</code> button and select `Open with GitHub Desktop</li>
+</ol>
+<p><em>You should now be in your GitHub Desktop application that has a pop up window called &#39;Clone a Repository&#39;</em></p>
+<ol start="7">
+    <li>Make sure the local path is where you would like to save this repo.</li>
+    <li>Hit <code>Clone</code></li>
+    <li>You should be able to now click the <code>Open in Visual Studio Code</code> button or navigate to your files and open the folder in Visual Studio Code.</li>
+    <li>After you finish working on your project please return to GitHub Desktop and</li>
+    <li>Commit your changes to the <code>master</code> (don&#39;t to add a summary description)</li>
+    <li>Click on the <code>Push Orgin</code> to sync your commit with the GitHub cloud.</li>
+</ol>
+
+</body>
+</html>
